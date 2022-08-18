@@ -201,6 +201,8 @@
     "go_to_my_activities": "Go to my activities",
     "my_activities": "My Activities",
     "my_activities_empty": "You have not participated in any activity yet",
-    "unexpected_error": "Error happend when Login in Application"
+    "unexpected_error": "Error happend when Login in Application",
+    "Start activity": "Start activity",
+    "End activity": "End activity"
 
 }

@@ -201,5 +201,7 @@
     "go_to_my_activities": "إذهب إلى مركز تطوعاتي",
     "my_activities": "تطوعاتي",
     "my_activities_empty": "لا يوجد أي تطوعات حتى الآن",
-    "unexpected_error": " عذرا حدث خطأ أثناء تسجيل الدخول في التطبيق"
+    "unexpected_error": " عذرا حدث خطأ أثناء تسجيل الدخول في التطبيق",
+    "Start activity": "بداية النشاط",
+    "End activity": "نهاية النشاط"
 }

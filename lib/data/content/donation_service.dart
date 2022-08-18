@@ -12,7 +12,7 @@ import '../../configs/helpers.dart';
 class Donation_Ca_service {
   //static const mainUrl = 'http://192.168.1.5:8000/api';
   static const donationUrl = '/donation-campaign/';
-  static const addDonationUrl = '/donation-operation/';
+  static const addDonationUrl = '/donation-operation';
 
   // Accept header value
   static const _acceptValue = 'application/json';
@@ -79,14 +79,14 @@ class Donation_Ca_service {
         body: json.encode(addDonationOperation.toJson()),
       );
       // .timeout(const Duration(seconds: 3));
-      print('ffffffffffffffffffffffffff ===> ${response.body.toString()}');
+      print('this resonse body to add donation operation ===> ${response.body.toString()}');
       // ! FETCHED SUCCESSFULLY
       if (response.statusCode == 201) {
         return true;
       }
-      print('rrrrrrrrrrrrrrrrrrrr ===> ${response.statusCode.toString()}');
+      print('the response code to add operation ===> ${response.statusCode.toString()}');
     } catch (e) {
-      return false;
+      print('the exeption ' + e.toString());
     }
     return false;
   }

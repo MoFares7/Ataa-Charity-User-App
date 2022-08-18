@@ -201,7 +201,7 @@ class DetailsVolunter extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(tr('Duration of activity (number of days)'),
+                    Text(tr('Start activity'),
                         style: TextStyle(
                           fontSize: 10.sp,
                         )),
@@ -219,7 +219,7 @@ class DetailsVolunter extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(tr('Duration of activity (number of days)'),
+                    Text(tr('End activity'),
                         style: TextStyle(
                           fontSize: 10.sp,
                         )),
